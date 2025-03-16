@@ -1,1 +1,6 @@
-theme:jekyll-theme-chripy
+title: 你的博客名         # 必填
+tagline: 一句话描述       # 可选
+url: 'https://priderbill.github.io'  # 必填
+github:
+  username: 你的GitHubID   # 用于显示社交图标
+theme: jekyll-theme-chirpy # 已内置，无需额外安装
