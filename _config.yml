@@ -5,3 +5,19 @@ title: Jekyll_minimal_learning
 description: description?[A short description of your site's purpose]
 show_downloads: ture["true" or "false" (unquoted) to indicate whether to provide a download URL]
 google_analytics: [Your Google Analytics tracking ID]
+header_pages:
+  - about.md
+  - portfolio.md
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+disqus:
+  shortname: my_disqus_shortname
+author:
+  name: John Smith
+  email: "john.smith@foobar.com"
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/jekyll/jekyll" }
+    - { platform: twitter, user_url: "https://twitter.com/jekyllrb" }
